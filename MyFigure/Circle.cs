@@ -11,5 +11,4 @@ namespace MyFigure
             Console.WriteLine($"Площадь круга с радиусом {Radius} равна {SQR}");
         }
     }
-
 }
