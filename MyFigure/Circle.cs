@@ -7,7 +7,7 @@ namespace MyFigure
     {
         public static void Squre(double Radius)
         {
-            var SQR = 2 * (Math.PI) * Radius;
+            var SQR = (Math.PI) * (Math.Pow(Radius,2));
             Console.WriteLine($"Площадь круга с радиусом {Radius} равна {SQR}");
         }
     }
